@@ -1,6 +1,3 @@
-//   /* Js preared by Rabin K. Kalikote*/
-//   /* for the functioning of personal website*/
-//   /* Copyright (c): Rabin K. Kalikote*/
 
 // PWA freatures
 if('serviceWorker' in navigator){
