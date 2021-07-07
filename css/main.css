@@ -1,5 +1,3 @@
-/* Codes written by Rabin K. Kalikote for the Personal Website.
-Copyright (c): Rabin K. Kalikote. */
 
 /* Creating the font faces. */
 @font-face { font-family:bol; src: url('fonts/grbold.otf');}
@@ -26,12 +24,12 @@ html, body{
 
 /* Header/Navigation */
 nav.nav{
-    background: #fff;
+    background: #dae3e6;
     box-shadow: 0 0 1px rgba(0,65,94,0.2);
     z-index: 101;
     transition: height 422ms 0s ease;
     position: fixed;
-    height: 70px;
+    height: 60px;
     top:0; right:0; left:0;
 }
 nav .nav-container{
@@ -102,14 +100,14 @@ nav .nav-container{
 }
 .nav-list .nav-item a.nav-link {
   text-decoration: none;
-  color: #7b8b8e;
+  color: #355d69;
   font-family: med;
   transition: color 300ms 0s ease;
 }
 .nav-list .nav-item-logo a.nav-link {
   font-size: 22px;
   font-family: bol;
-  color: #48AFF7;
+  color: #355d69;
 }
 .nav-list .nav-item-logo a.nav-link img{
   height: 35px;
@@ -211,13 +209,13 @@ nav .nav-container{
 .face .background {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 80%;
     -webkit-transform: skewY(-12deg);
     transform: skewY(-12deg);
     -webkit-transform-origin: -22%;
     transform-origin: -22%;
-    background: -o-linear-gradient(240deg, #91C9F0 15%, #51A4DE  20%, #51A4DE  24%);
-    background: linear-gradient( -150deg, #91C9F0 15%, #51A4DE  20%, #51A4DE  24%);
+    background: -o-linear-gradient(240deg, #8aacbd 15%, #355d69  20%, #355d69  24%);
+    background: linear-gradient( -150deg, #8aacbd 15%, #355d69  20%, #355d69  24%);
 }
 .face .background span {
     -webkit-transition: 0.4s all;
@@ -226,40 +224,7 @@ nav .nav-container{
     position: absolute;
     height: 190px;
 }
-.face .background span:nth-child(1) {
-    display: none;
-    top: 0;
-    width: 33.33333%;
-    right: -16.66666%;
-    background: #7CC3F4;
-}
-.face .background span:nth-child(2) {
-    width: 33.33333%;
-    top: 0;
-    right: 16.66666%;
-    left: auto;
-    bottom: auto;
-    background: #7CC3F4;
-}
-.face .background span:nth-child(3) {
-    width: 33.33333%;
-    right: 49.99999%;
-    bottom: auto;
-    left: auto;
-    background: #7CC3F4;
-}
-.face .background span:nth-child(4) {
-    width: 33.33333%;
-    top: 380px;
-    left: -16.66666%;
-    background: #7CC3F4;
-}
-.face .background span:nth-child(5) {
-    width: 33.33333%;
-    right: 0;
-    bottom: 0;
-    background: #7CC3F4;
-}
+
 
 .face .col-md-5 {
   padding: 8rem 5rem 0 0;
@@ -278,12 +243,13 @@ nav .nav-container{
   transform: rotate(8deg);
 }
 .face .col-md-5 > .slider > div img {
-  padding: 4px;
-  border: 1px solid #ccc;
-  background: #fff;
-  height: 100%;
-  width: 100%;
-  border-radius: 33px;
+  padding: 3px;
+  border: 1px solid #91c0cf;
+  background: #91c0cf;
+  height: 90%;
+  width: 90%;
+  border-radius: 1000px;
+
   -webkit-box-shadow: inset 0 4px 7px 1px #ffffff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
   box-shadow: inset 0 4px 7px 1px #ffffff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
 }
@@ -305,16 +271,16 @@ nav .nav-container{
 }
 .face .col-md-7.intro-title .content > h1{
   font-family: bol;
-  font-size: 58px;
+  font-size: 45px;
   text-align: center;
-  color: #fff !important;
+  color: #dae3e6 !important;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
 }
 .face .col-md-7.intro-title .content > h4{
   font-family: bol;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
-  color: #fff !important;
+  color: #dae3e6 !important;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 .face .col-md-7.intro-title .content a {
@@ -322,16 +288,16 @@ nav .nav-container{
   font-family: boo;
 }
 .face .col-md-7.intro-title .content .btn {
-  margin-top: 2rem;
-  color: #fff !important;
-  background: #6BB6EA;
+  margin-top: 1rem;
+  color: #355d69 !important;
+  background: #dae3e6;
   padding: 1rem 2rem;
   transition: all .1s ease;
   font-size: 18px;
 }
 .face .col-md-7.intro-title .content a:hover .btn,
 .face .col-md-7.intro-title .content a:focus .btn {
-  background: #6BB6EA;
+  background: #9bb0ba;
   margin-top: 1.9rem;
   padding: 1.1rem 2.1rem;
   font-size: 19px;
@@ -349,7 +315,7 @@ nav .nav-container{
     transform: skewY(12deg);
     -webkit-transform-origin: 123%;
     transform-origin: 123%;
-    background: #F0F9FF;
+    background: #dae3e6;
 }
 
 /* About section */
@@ -364,11 +330,11 @@ nav .nav-container{
 }
 .container .col-md-5 .profile-card img {
   padding: 5px;
-  background: #fff;
+  border: 1px solid #91c0cf;
+  background: #91c0cf;
   height: 100%;
   width: 100%;
-  margin-top: -15%;
-  border-radius: 53px;
+  border-radius: 1000px;
   -webkit-box-shadow: inset 0 4px 7px 1px #ffffff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
   box-shadow: inset 0 4px 7px 1px #ffffff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
 }
@@ -427,8 +393,8 @@ nav .nav-container{
   list-style: none;
   width: 100%;
   padding: 1rem;
-  background: -o-linear-gradient(240deg, #91C9F0 15%, #51A4DE  65%, #51A4DE  24%);
-  background: linear-gradient(-150deg, #91C9F0 15%, #51A4DE  65%, #51A4DE  24%);
+  background: -o-linear-gradient(240deg, #8aacbd 15%, #355d69  65%, #355d69  24%);
+  background: linear-gradient( -150deg, #8aacbd 15%, #355d69  65%, #355d69  24%);;
   border-radius: 0.5rem;
 }
 .accordion .acc-item {
@@ -450,7 +416,7 @@ nav .nav-container{
   content: '';
   width: 13%;
   height: 1px;
-  background: linear-gradient(240deg, #91C9F0 55%, #51A4DE  100%, #51A4DE  44%);
+  background: linear-gradient(240deg, #8aacbd 55%, #355d69  100%, #355d69 44%);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -580,7 +546,7 @@ nav .nav-container{
 
 
 .tcb-profile-card > img {
-  height: 100%;
+  height: 90%;
   width: 50%;
   margin-left: 50%;
 }
@@ -596,19 +562,22 @@ nav .nav-container{
   color: #737373;
   text-align: right;
 }
+
+
 .tcb-profile-card a .btn {
   margin-top: 1rem;
   margin-right: .2rem;
-  color: #fff !important;
-  background: #6BB6EA;
+  color: #355d69 !important;
+  background: #dae3e6;
   padding: 1rem 2rem;
   transition: all .1s ease;
-  font-size: 16px;
+  font-size: 18px;
   float: right;
   font-family: med;
 }
 .tcb-profile-card a:hover .btn,
 .tcb-profile-card a:focus .btn {
+  background: #9bb0ba;
   margin-top: .9rem;
   padding: 1.1rem 2.1rem;
   font-size: 17px;
@@ -970,7 +939,7 @@ select, textarea {
   padding: 7px;
   border: none;
   border-bottom: 1px solid #d8f3e0;
-  background: #B6E1FF;
+  background: #9bb0ba;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -983,7 +952,7 @@ select:focus, textarea:focus {
 }
 
 input[type=submit] {
-  background-color: #4CB6FF;
+  background-color: #355d69;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -996,7 +965,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #1DA1FC;
+  background-color:  #9bb0ba;
 }
 /* In tablet screens. */
 @media screen and (max-width:959px) {
@@ -1008,10 +977,27 @@ input[type=submit]:hover {
   }
 }
 
+
+.face .col-md-12.intro-title .content .btn {
+  margin-top: 1rem;
+  color: #355d69 !important;
+  background: #dae3e6;
+  padding: 1rem 2rem;
+  transition: all .1s ease;
+  font-size: 18px;
+}
+.face .col-md-12.intro-title .content a:hover .btn,
+.face .col-md-12.intro-title .content a:focus .btn {
+  background: #9bb0ba;
+  margin-top: 1.9rem;
+  padding: 1.1rem 2.1rem;
+  font-size: 19px;
+}
+
 /* Footer section */
 #footer {
   padding: 8rem 0;
-  background: #F0F9FF;
+  background:  #dae3e6;
 }
 #footer img {
   width: 33px;
@@ -1020,7 +1006,7 @@ input[type=submit]:hover {
 #footer span {
   font-family: bol;
   font-size: 23px;
-  color: #48AFF7 !important;
+  color: #355d69 !important;
 }
 #footer p.at-text {
   font-family: lig;
@@ -1032,7 +1018,7 @@ input[type=submit]:hover {
 #footer p.footer-title {
   font-size: 17px;
   font-family: med;
-  color: #737373;
+  color: #355d69;
 }
 
 #footer ul.footer-links {
@@ -1075,5 +1061,5 @@ input[type=submit]:hover {
     transition: .3s ease;
 }
 #footer ul.footer-icons li a:hover {
-    color: #1DA1FC;
+    color: #9bb0ba;
 }
